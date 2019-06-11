@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "creeperx",
+  "version": "${version}",
+
+  "name": "Creeperx Mod",
+  "description": "This is a mod of several different Creeper variants",
+  "authors": [
+    "Josh Chappelle"
+  ],
+  "contact": {
+    "homepage": "https://github.com/jchappelle",
+    "sources": "https://github.com/jchappelle/creeperx-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/creeperx/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.joshchappelle.creeperx.Mod"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
